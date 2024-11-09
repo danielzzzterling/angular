@@ -1,0 +1,33 @@
+@import '../../variables.scss/styles/variables.scss';
+
+$font-family: 'Open Sans', sans-serif;
+
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: $font-family;
+
+    img {
+        width: 100px;
+        height: auto;
+    }
+
+    .nav-link{
+
+            text-decoration: none;
+
+
+            &:hover{
+                color: #eb0404;
+                
+                
+                
+         }
+    }
+
+
+}  
+
